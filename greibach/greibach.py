@@ -153,6 +153,7 @@ def mk_example(ex_num, v_0, p_0):
         print(colored("Each production begining with a terminal followed by a word of variables.", 'blue'))
         p_i = terminal_followed_by_word_of_variables(v, p_i)
         print_prod(p_i)
+        return p_i
 
 
 if __name__ == "__main__":
