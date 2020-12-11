@@ -1,5 +1,5 @@
-from greibach.greibach import *
-from pda.pda import *
+from greibach import *
+from pda import *
 from termcolor import colored
 
 
